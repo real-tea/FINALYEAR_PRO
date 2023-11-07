@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: ;
+} */
+
+.tooltip {
+  border-radius: 6px;
+  color: rgb(200, 50, 100);
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+.hashdocs-scrollbar {
+  @apply overflow-y-scroll scrollbar-thin scrollbar-track-shade-line scrollbar-thumb-shade-disabled;
+}
+
+.bg-stratos-gradient {
+  @apply bg-gradient-to-r from-stratos-400 via-stratos-default to-stratos-600 ;
+}
+
+.bg-shade-gradient {
+@apply bg-gradient-to-r from-shade-pencil-light via-shade-pencil-dark to-shade-pencil-dark 
+}
+
+.text-stratos-gradient {
+  background: linear-gradient(to right, rgb(62, 97, 255), rgb(0, 16, 255), rgb(0, 16, 255));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-shade-gradient {
+  background: linear-gradient(to right, rgb(107, 114, 128), rgb(55, 65, 81), rgb(55, 65, 81));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.calendly-popup {
+  min-height: 700px !important;
+}
