@@ -22,12 +22,6 @@ Sharing sensitive documents as attachments is risky and arcane. Attachments get 
   - [x] Expiry settings for links
   - [x] Enable / Disable downloads
 
-- [x] Dataroom console
-  - [x] Single document uploads (PDFs)
-  - [x] Version control for documents
-  - [ ] Support for additional document types (PPT, Word)
-  - [ ] Support for media types (images, videos)
-  - [ ] Folders & Multi-document uploads
 
 - [x] Advanced tracking and analytics - _prevent unauthorized downloads, printing or saving as images_
   - [x] Track completion % and time spent across pages for each visit
@@ -43,35 +37,11 @@ Sharing sensitive documents as attachments is risky and arcane. Attachments get 
   - [ ] Custom watermarks
   - [ ] White-labelled datarooms with organization branding and logo
 
-- [ ] Integrations
-  - [ ] Email notifications for new views, unauthorized visits
-  - [ ] Slack / Teams integrations for notifications
-  - [ ] Slack / Teams integrations to generate links
-  - [ ] Gmail plugins
-
 - [x] Misc settings
   - [x] Login with google
   - [ ] Team management
   - [ ] Organization branding for console and data rooms
   - [ ] Self-hosting options
-
-## Contributing & Support
-
-We're building Hashdocs in the open. We'd love your help in making it better. To get started, please read our [contribution guide](./CONTRIBUTING.md)
-
-- [Roadmap](https://github.com/hashdocs/hashdocs/issues). View our roadmap, and add feature requests
-- [Discussions Forum](https://github.com/hashdocs/hashdocs/discussions). Request features, suggest updates, discuss roadmap
-- [GitHub Issues](https://github.com/hashdocs/hashdocs/issues). Bugs and errors you may have encountered
-- [Email Support](mailto:bharat@hashlabs.dev). Please use this for critical support
-
-Star this repo and watch releases to get notified of any updates
-
-## Status
-
-- [x] Public Beta: Open for signups at [hashdocs](https://hashdocs.org/login). Still ironing out issues
-- [ ] Public: General Availability
-
----
 
 ## Tech stack
 
@@ -81,15 +51,3 @@ Hashdocs is built entirely on open source tools. We’re deeply grateful to the 
 
 - [Supabase](https://supabase.com/) is an open-source Firebase alternative with an incredible feature-rich backend-as-a-service. We use Supabase for our database, authentication, edge functions and storage
 - [NextJS](https://nextjs.org) is a React framework that provides hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. We use NextJS 13 (App router) for our frontend, hosted on [Vercel](https://vercel.com)
-
-**Packages**
-
-You can access a full list of packages [here](./package.json). Shoutouts to a few packages and tools:
-
-- [Tailwind](https://tailwindcss.com/), for building the best DX for css styling
-- [Framer](https://github.com/framer/motion), for their beautiful animation and gesture libraries
-- [Recharts](https://recharts.org/), for building such a feature-rich charting library for React
-- [Posthog](https://posthog.com) for their amazing auto-capture analytics features
-- [react-pdf](https://github.com/wojtekmaj/react-pdf) for making such a simple plug-and-play pdf viewer
-- [Uppy](https://uppy.io/docs/uppy/) for their simple file uploader
-- [Dub.sh] (https://github.com/steven-tey/dub) To Steven and Dub, for being an inspiration on Twitter, and for building the most elegant feature preview component I've seen
