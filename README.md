@@ -1,8 +1,8 @@
-![Hashdocs OG](https://github.com/hashdocs/hashdocs/assets/62215539/cec6eae6-c9b0-4c2e-a8c5-cbcb5053918c)
+
 
 ---
 
-[Hashdocs](https://hashdocs.org) is an open source Docsend alternative. We're building a more feature-rich secure document sharing and data room platform.
+[Hashdocs] is an open source Docsend alternative. We're building a more feature-rich secure document sharing and data room platform.
 
 Sharing sensitive documents as attachments is risky and arcane. Attachments get forwarded all the time:
 
